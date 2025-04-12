@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['interior panel', 'outher panel', 'test-fotogroflari']
+
+roboflow:
+  workspace: test-68ibp
+  project: test-fotogroflari
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-68ibp/test-fotogroflari/dataset/3
